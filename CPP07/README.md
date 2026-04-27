@@ -129,12 +129,3 @@ cd ex02 && make && ./array
 ```bash
 make clean / make fclean / make re
 ```
-
----
-
-## 📝 Notes
-
-- All exercises compile with `-Wall -Wextra -Werror -std=c++98`.
-- Template definitions **must** reside in header files (or `.tpp` files included by the header) because the compiler needs the full definition at each instantiation site.
-- In ex00, `::swap`, `::min`, and `::max` must be called with the `::` prefix to avoid ambiguity with `std::swap`, `std::min`, and `std::max`.
-- `Array::operator[]` returns a reference, allowing both read and write access (`arr[i] = val`).
