@@ -124,12 +124,3 @@ cd ex03 && make && ./bsp
 ```bash
 make clean / make fclean / make re
 ```
-
----
-
-## 📝 Notes
-
-- All exercises compile with `-Wall -Wextra -Werror -std=c++98`.
-- The number of fractional bits is fixed at **8**, giving a resolution of `1/256 ≈ 0.00390625`.
-- The smallest representable non-zero value increment in ex02 is `1` raw unit = `1/256`.
-- In the BSP test, a point exactly on an edge returns `false` (strictly inside only).
