@@ -159,12 +159,3 @@ cd ex02 && make && ./mutantstack
 ```bash
 make clean / make fclean / make re
 ```
-
----
-
-## 📝 Notes
-
-- All exercises compile with `-Wall -Wextra -Werror -std=c++98`.
-- Template implementations (`.tpp` files) are included at the bottom of their respective `.hpp` headers.
-- `MutantStack` inherits publicly from `std::stack` — this is generally inadvisable in production code (STL containers have non-virtual destructors), but is acceptable for this exercise.
-- `Span::shortestSpan()` requires sorting a copy of the stored integers; the sorted-adjacent-difference approach is O(N log N) rather than the naïve O(N²).
