@@ -1,0 +1,165 @@
+services:
+    # API Gateway
+    gateway:
+        build:
+            context: ../
+            dockerfile: src/backend/services/gateway/Dockerfile
+        container_name: gateway
+        restart: always
+        ports:
+            - '3000:3000'
+        environment:
+            - PORT=3000
+            - HOST=0.0.0.0
+            - LOGIN_SERVICE_URL=http://login:3001
+            - REGISTER_SERVICE_URL=http://register:3002
+            - GAME_SERVICE_URL=http://game:3003
+            - CHAT_SERVICE_URL=http://chat:3004
+        networks:
+            - transcendence
+        depends_on:
+            - login
+            - register
+            - game
+            - chat
+        healthcheck:
+            test: ['CMD', 'wget', '--spider', '-q', 'http://localhost:3000/api/health']
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 10s
+
+    # Login Microservice
+    login:
+        build:
+            context: ../
+            dockerfile: src/backend/services/login/Dockerfile
+        container_name: login
+        restart: always
+        expose:
+            - '3001'
+        environment:
+            - PORT=3001
+            - HOST=0.0.0.0
+        networks:
+            - transcendence
+        healthcheck:
+            test: ['CMD', 'wget', '--spider', '-q', 'http://localhost:3001/health']
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 10s
+
+    # Register Microservice
+    register:
+        build:
+            context: ../
+            dockerfile: src/backend/services/register/Dockerfile
+        container_name: register
+        restart: always
+        expose:
+            - '3002'
+        environment:
+            - PORT=3002
+            - HOST=0.0.0.0
+        networks:
+            - transcendence
+        healthcheck:
+            test: ['CMD', 'wget', '--spider', '-q', 'http://localhost:3002/health']
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 10s
+
+    # Game Microservice
+    game:
+        build:
+            context: ../
+            dockerfile: src/backend/services/game/Dockerfile
+        container_name: game
+        restart: always
+        expose:
+            - '3003'
+        environment:
+            - PORT=3003
+            - HOST=0.0.0.0
+        networks:
+            - transcendence
+        healthcheck:
+            test: ['CMD', 'wget', '--spider', '-q', 'http://localhost:3003/health']
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 10s
+
+    # Chat Microservice
+    chat:
+        build:
+            context: ../
+            dockerfile: src/backend/services/chat/Dockerfile
+        container_name: chat
+        restart: always
+        expose:
+            - '3004'
+        environment:
+            - PORT=3004
+            - HOST=0.0.0.0
+        networks:
+            - transcendence
+        healthcheck:
+            test: ['CMD', 'wget', '--spider', '-q', 'http://localhost:3004/health']
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 10s
+
+    # Nginx (Production)
+    nginx:
+        build: ./nginx
+        container_name: nginx_42
+        restart: always
+        ports:
+            - '443:443'
+            - '80:80'
+        env_file:
+            - .env
+        networks:
+            - transcendence
+        volumes:
+            - frontend_build:/var/www/html:ro
+        depends_on:
+            - gateway
+        healthcheck:
+            test:
+                [
+                    'CMD',
+                    'curl',
+                    '-f',
+                    'https://localhost:443',
+                    '-k',
+                    '--connect-timeout',
+                    '5',
+                ]
+            interval: 30s
+            timeout: 10s
+            retries: 3
+            start_period: 20s
+
+    # Frontend Build (one-off service to build React app)
+    frontend_builder:
+        image: node:20-alpine
+        container_name: frontend_builder
+        working_dir: /app
+        volumes:
+            - ../:/app
+            - frontend_build:/app/dist/frontend
+        command: sh -c "npm ci && npm run build:vite"
+        networks:
+            - transcendence
+
+networks:
+    transcendence:
+        driver: bridge
+
+volumes:
+    frontend_build:

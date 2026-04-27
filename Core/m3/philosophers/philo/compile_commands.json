@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/vee/42KL/Core/m3/philosophers/philo/build",
+  "command": "/usr/bin/cc  -I/home/vee/42KL/Core/m3/philosophers/philo/include -I/home/vee/42KL/Core/m3/philosophers/philo/libft/include -Wall -Wextra -Werror -o CMakeFiles/philo.dir/src/init.c.o -c /home/vee/42KL/Core/m3/philosophers/philo/src/init.c",
+  "file": "/home/vee/42KL/Core/m3/philosophers/philo/src/init.c",
+  "output": "CMakeFiles/philo.dir/src/init.c.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m3/philosophers/philo/build",
+  "command": "/usr/bin/cc  -I/home/vee/42KL/Core/m3/philosophers/philo/include -I/home/vee/42KL/Core/m3/philosophers/philo/libft/include -Wall -Wextra -Werror -o CMakeFiles/philo.dir/src/input_check.c.o -c /home/vee/42KL/Core/m3/philosophers/philo/src/input_check.c",
+  "file": "/home/vee/42KL/Core/m3/philosophers/philo/src/input_check.c",
+  "output": "CMakeFiles/philo.dir/src/input_check.c.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m3/philosophers/philo/build",
+  "command": "/usr/bin/cc  -I/home/vee/42KL/Core/m3/philosophers/philo/include -I/home/vee/42KL/Core/m3/philosophers/philo/libft/include -Wall -Wextra -Werror -o CMakeFiles/philo.dir/src/philo.c.o -c /home/vee/42KL/Core/m3/philosophers/philo/src/philo.c",
+  "file": "/home/vee/42KL/Core/m3/philosophers/philo/src/philo.c",
+  "output": "CMakeFiles/philo.dir/src/philo.c.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m3/philosophers/philo/build",
+  "command": "/usr/bin/cc  -I/home/vee/42KL/Core/m3/philosophers/philo/include -I/home/vee/42KL/Core/m3/philosophers/philo/libft/include -Wall -Wextra -Werror -o CMakeFiles/philo.dir/src/table.c.o -c /home/vee/42KL/Core/m3/philosophers/philo/src/table.c",
+  "file": "/home/vee/42KL/Core/m3/philosophers/philo/src/table.c",
+  "output": "CMakeFiles/philo.dir/src/table.c.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m3/philosophers/philo/build",
+  "command": "/usr/bin/cc  -I/home/vee/42KL/Core/m3/philosophers/philo/include -I/home/vee/42KL/Core/m3/philosophers/philo/libft/include -Wall -Wextra -Werror -o CMakeFiles/philo.dir/src/utils.c.o -c /home/vee/42KL/Core/m3/philosophers/philo/src/utils.c",
+  "file": "/home/vee/42KL/Core/m3/philosophers/philo/src/utils.c",
+  "output": "CMakeFiles/philo.dir/src/utils.c.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m3/philosophers/philo/build",
+  "command": "/usr/bin/cc  -I/home/vee/42KL/Core/m3/philosophers/philo/include -I/home/vee/42KL/Core/m3/philosophers/philo/libft/include -Wall -Wextra -Werror -o CMakeFiles/philo.dir/src/utils2.c.o -c /home/vee/42KL/Core/m3/philosophers/philo/src/utils2.c",
+  "file": "/home/vee/42KL/Core/m3/philosophers/philo/src/utils2.c",
+  "output": "CMakeFiles/philo.dir/src/utils2.c.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m3/philosophers/philo/build",
+  "command": "/usr/bin/cc  -I/home/vee/42KL/Core/m3/philosophers/philo/include -I/home/vee/42KL/Core/m3/philosophers/philo/libft/include -Wall -Wextra -Werror -o CMakeFiles/philo.dir/src/utils3.c.o -c /home/vee/42KL/Core/m3/philosophers/philo/src/utils3.c",
+  "file": "/home/vee/42KL/Core/m3/philosophers/philo/src/utils3.c",
+  "output": "CMakeFiles/philo.dir/src/utils3.c.o"
+}
+]

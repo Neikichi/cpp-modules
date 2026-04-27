@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+.env
+.vscode
+dist/frontend
+*.md
+README.md
+MICROSERVICES.md
+.eslintrc
+.prettierrc
+start.sh
+start.bat
+docker-compose.dev.yml
+src/frontend/node_modules

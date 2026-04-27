@@ -1,0 +1,128 @@
+[
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Backend/CGI.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Backend/CGI.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Backend/CGI.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Backend/CGI.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Backend/Epoll.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Backend/Epoll.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Backend/Epoll.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Backend/Epoll.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Backend/IO.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Backend/IO.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Backend/IO.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Backend/IO.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Backend/Socket.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Backend/Socket.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Backend/Socket.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Backend/Socket.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Backend/SocketRegistry.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Backend/SocketRegistry.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Backend/SocketRegistry.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Backend/SocketRegistry.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Exceptions/Exceptions.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Exceptions/Exceptions.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Exceptions/Exceptions.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Exceptions/Exceptions.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/MiniHttp/MiniHttp.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/MiniHttp/MiniHttp.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/MiniHttp/MiniHttp.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/MiniHttp/MiniHttp.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/MiniHttp/MiniHttpRequest.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/MiniHttp/MiniHttpRequest.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/MiniHttp/MiniHttpRequest.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/MiniHttp/MiniHttpRequest.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/MiniHttp/MiniHttpResponse.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/MiniHttp/MiniHttpResponse.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/MiniHttp/MiniHttpResponse.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/MiniHttp/MiniHttpResponse.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/MiniHttp/MiniHttpUtils.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/MiniHttp/MiniHttpUtils.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/MiniHttp/MiniHttpUtils.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/MiniHttp/MiniHttpUtils.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Parser/DirChecker.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Parser/DirChecker.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Parser/DirChecker.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Parser/DirChecker.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Parser/Lexer.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Parser/Lexer.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Parser/Lexer.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Parser/Lexer.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Parser/Node.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Parser/Node.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Parser/Node.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Parser/Node.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Parser/Parser.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Parser/Parser.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Parser/Parser.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Parser/Parser.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Parser/Token.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Parser/Token.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Parser/Token.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Parser/Token.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Utils/Utils.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Utils/Utils.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Utils/Utils.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Utils/Utils.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Webserver/Cookie.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Webserver/Cookie.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Webserver/Cookie.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Webserver/Cookie.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Webserver/Location.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Webserver/Location.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Webserver/Location.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Webserver/Location.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Webserver/Server.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Webserver/Server.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Webserver/Server.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Webserver/Server.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/Webserver/WebServer.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/Webserver/WebServer.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/Webserver/WebServer.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/Webserver/WebServer.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m5/Prophet/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m5/Prophet/includes -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/Prophet.dir/src/main.cpp.o -c /home/vee/42KL/Core/m5/Prophet/src/main.cpp",
+  "file": "/home/vee/42KL/Core/m5/Prophet/src/main.cpp",
+  "output": "CMakeFiles/Prophet.dir/src/main.cpp.o"
+}
+]

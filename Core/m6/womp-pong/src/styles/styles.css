@@ -1,0 +1,65 @@
+/* @import "tailwindcss" prefix(tw); */
+@import 'tailwindcss';
+/* @plugin "daisyui" prefix(da); */
+
+/* screens is breakoints */
+/* @theme { */
+/* 	--breakpoint-*: initial; */
+/* 	--breakpoint-sm: 480px; */
+/* 	--breakpoint-md: 768px; */
+/* 	--breakpoint-lg: 1024px; */
+/* 	--breakpoint-xl: 1280px; */
+/* 	--breakpoint-2xl: 1536px; */
+/* 	--color-twitter-blue: #1DA1F2; */
+/* 	--color-orange-500: #ffa500; */
+/* } */
+
+/* @layer base { */
+/* 	body { */
+/* 		@apply tw-bg-white tw-text-black; */
+/* 	} */
+/* } */
+/**/
+/* @layer components { */
+/* 	.btn-twitter { */
+/* 		@apply tw-bg-[var(--color-twitter-blue)] tw-text-white tw-font-bold tw-px-4 tw-py-2 tw-rounded; */
+/* 	} */
+/* } */
+
+/* @layer utilities { */
+/* 	.text-orange-500 { */
+/* 		@apply tw-text-[var(--color-orange-500)]; */
+/* 	} */
+/**/
+/* 	flex-center { */
+/* 		@apply tw-flex tw-justify-center tw-items-center; */
+/* 	} */
+/* } */
+
+@layer components {
+	.frosted-card {
+		/* @apply bg-[#ffffff0d] backdrop-blur-md rounded-md shadow-2xl border-none; */
+		@apply bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl border border-white/20;
+	}
+	.effect-hover-ny2 {
+		@apply hover:-translate-y-0.5 hover:transition-all hover:duration-300 hover:ease-in-out;
+	}
+	.effect-hover {
+		@apply hover:transition-all hover:duration-300 hover:ease-in-out;
+	}
+	.debug-border {
+		@apply border-2 border-rose-400;
+	}
+
+	.sidebar-icon-btn {
+		@apply m-2 p-0.5 rounded-md outline-none text-white
+			transition-transform duration-150 ease-in-out
+			shadow-[2px_2px_4px_rgba(0,0,0,0.6),-1px_-1px_2px_rgba(255,255,255,0.08)]
+			active:scale-95
+			hover:bg-zinc-700 hover:backdrop-blur-sm hover:text-amber-500 hover:scale-110;
+	}
+
+	.sidebar-icon-btn-active {
+		@apply text-amber-500 ring-2 ring-amber-500 bg-zinc-700;
+	}
+}

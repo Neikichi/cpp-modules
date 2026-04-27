@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/vee/42KL/Core/m4/CPP00/ex02/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m4/CPP00/ex02/include -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/ex02.dir/src/Account.cpp.o -c /home/vee/42KL/Core/m4/CPP00/ex02/src/Account.cpp",
+  "file": "/home/vee/42KL/Core/m4/CPP00/ex02/src/Account.cpp",
+  "output": "CMakeFiles/ex02.dir/src/Account.cpp.o"
+},
+{
+  "directory": "/home/vee/42KL/Core/m4/CPP00/ex02/build",
+  "command": "/usr/bin/c++  -I/home/vee/42KL/Core/m4/CPP00/ex02/include -std=c++98 -Wall -Wextra -Werror -o CMakeFiles/ex02.dir/src/tests.cpp.o -c /home/vee/42KL/Core/m4/CPP00/ex02/src/tests.cpp",
+  "file": "/home/vee/42KL/Core/m4/CPP00/ex02/src/tests.cpp",
+  "output": "CMakeFiles/ex02.dir/src/tests.cpp.o"
+}
+]

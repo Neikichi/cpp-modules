@@ -1,0 +1,98 @@
+services:
+    # API Gateway (Dev mode - for local testing with Docker)
+    gateway:
+        build:
+            context: ../
+            dockerfile: src/backend/services/gateway/Dockerfile
+        container_name: gateway_dev
+        ports:
+            - '3000:3000'
+        environment:
+            - PORT=3000
+            - HOST=0.0.0.0
+            - LOGIN_SERVICE_URL=http://login:3001
+            - REGISTER_SERVICE_URL=http://register:3002
+            - GAME_SERVICE_URL=http://game:3003
+            - CHAT_SERVICE_URL=http://chat:3004
+        networks:
+            - transcendence
+        depends_on:
+            - login
+            - register
+            - game
+            - chat
+        volumes:
+            - ../dist/backend/services/gateway:/app:ro
+        command: node server.js
+
+    # Login Microservice (Dev)
+    login:
+        build:
+            context: ../
+            dockerfile: src/backend/services/login/Dockerfile
+        container_name: login_dev
+        ports:
+            - '3001:3001'
+        environment:
+            - PORT=3001
+            - HOST=0.0.0.0
+        networks:
+            - transcendence
+        volumes:
+            - ../dist/backend/services/login:/app:ro
+        command: node server.js
+
+    # Register Microservice (Dev)
+    register:
+        build:
+            context: ../
+            dockerfile: src/backend/services/register/Dockerfile
+        container_name: register_dev
+        ports:
+            - '3002:3002'
+        environment:
+            - PORT=3002
+            - HOST=0.0.0.0
+        networks:
+            - transcendence
+        volumes:
+            - ../dist/backend/services/register:/app:ro
+        command: node server.js
+
+    # Game Microservice (Dev)
+    game:
+        build:
+            context: ../
+            dockerfile: src/backend/services/game/Dockerfile
+        container_name: game_dev
+        ports:
+            - '3003:3003'
+        environment:
+            - PORT=3003
+            - HOST=0.0.0.0
+        networks:
+            - transcendence
+        volumes:
+            - ../dist/backend/services/game:/app:ro
+        command: node server.js
+
+    # Chat Microservice (Dev)
+    chat:
+        build:
+            context: ../
+            dockerfile: src/backend/services/chat/Dockerfile
+        container_name: chat_dev
+        ports:
+            - '3004:3004'
+        environment:
+            - PORT=3004
+            - HOST=0.0.0.0
+        networks:
+            - transcendence
+        volumes:
+            - ../dist/backend/services/chat:/app:ro
+        command: node server.js
+
+networks:
+    transcendence:
+        driver: bridge

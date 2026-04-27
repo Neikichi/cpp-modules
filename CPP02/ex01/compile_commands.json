@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/vlow/WorkMain/m4/CPP02/ex01/build",
+  "command": "/usr/bin/c++  -I/home/vlow/WorkMain/m4/CPP02/ex01/include -Wall -Wextra -Werror -std=c++98 -o CMakeFiles/ex01.dir/src/Fixed.cpp.o -c /home/vlow/WorkMain/m4/CPP02/ex01/src/Fixed.cpp",
+  "file": "/home/vlow/WorkMain/m4/CPP02/ex01/src/Fixed.cpp"
+},
+{
+  "directory": "/home/vlow/WorkMain/m4/CPP02/ex01/build",
+  "command": "/usr/bin/c++  -I/home/vlow/WorkMain/m4/CPP02/ex01/include -Wall -Wextra -Werror -std=c++98 -o CMakeFiles/ex01.dir/src/main.cpp.o -c /home/vlow/WorkMain/m4/CPP02/ex01/src/main.cpp",
+  "file": "/home/vlow/WorkMain/m4/CPP02/ex01/src/main.cpp"
+}
+]
