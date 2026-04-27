@@ -133,10 +133,3 @@ make fclean  # Remove object files + binary
 make re      # Rebuild
 ```
 
----
-
-## 📝 Notes
-
-- All exercises compile with `-Wall -Wextra -Werror -std=c++98`.
-- The key distinction in ex03: `HumanA` uses a reference (always initialised, safe to use directly), while `HumanB` uses a pointer (may be null, must check before use).
-- In ex04, if `s1` is empty the program should handle the edge case gracefully without infinite looping.
