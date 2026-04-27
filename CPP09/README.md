@@ -135,13 +135,3 @@ cd ex02 && make && ./PmergeMe 3 5 9 7 4
 ```bash
 make clean / make fclean / make re
 ```
-
----
-
-## 📝 Notes
-
-- All exercises compile with `-Wall -Wextra -Werror -std=c++98`.
-- Each exercise is restricted to **one** STL container type internally (ex00: `std::map`, ex01: `std::list`, ex02: `std::vector` + `std::deque`).
-- The `data.csv` file must be present in the working directory when running `./btc`.
-- RPN input must be passed as a **single quoted argument**; all tokens must be single-digit numbers.
-- PmergeMe must handle arbitrary-length positive integer sequences; the displayed times will vary by hardware.
