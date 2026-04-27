@@ -135,12 +135,3 @@ cd ex03 && make && ./materia
 ```bash
 make clean / make fclean / make re
 ```
-
----
-
-## 📝 Notes
-
-- All exercises compile with `-Wall -Wextra -Werror -std=c++98`.
-- `virtual` destructors are essential when deleting derived objects through a base pointer; failure to declare them `virtual` causes undefined behaviour.
-- In ex03, `unequip()` removes the materia from the slot but does **not** delete it — the caller is responsible for managing the unequipped materia's memory.
-- `MateriaSource::createMateria()` returns `NULL` (not a new object) if the requested type has not been learned.
