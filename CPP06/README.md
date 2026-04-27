@@ -132,11 +132,3 @@ cd ex02 && make && ./identify
 make clean / make fclean / make re
 ```
 
----
-
-## 📝 Notes
-
-- All exercises compile with `-Wall -Wextra -Werror -std=c++98`.
-- `dynamic_cast` requires RTTI, which is enabled by default but can be disabled with `-fno-rtti`; never disable it when using `dynamic_cast`.
-- In ex00, `impossible` is printed when the target type cannot represent the input value (e.g., `int` overflow, or non-printable `char`).
-- `static_cast` is sufficient for numeric promotions/narrowing; prefer it over C-style casts for clarity.
