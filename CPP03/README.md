@@ -137,10 +137,3 @@ cd ex03 && make && ./diamondtrap
 make clean / make fclean / make re
 ```
 
----
-
-## 📝 Notes
-
-- All exercises compile with `-Wall -Wextra -Werror -std=c++98`.
-- Constructor and destructor calls always print to stdout, making the initialisation and destruction order explicit.
-- In ex03, `ClapTrap` must be declared as a `virtual` base in both `ScavTrap` and `FragTrap` for the diamond problem to be properly resolved.
