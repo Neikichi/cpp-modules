@@ -145,11 +145,3 @@ cd ex03 && make && ./intern
 make clean / make fclean / make re
 ```
 
----
-
-## 📝 Notes
-
-- All exercises compile with `-Wall -Wextra -Werror -std=c++98`.
-- The `execute()` function must first verify that the form is signed and that the bureaucrat's grade is sufficient; throw `std::exception` (or a derived type) if not.
-- `ShrubberyCreationForm::execute()` writes to a file — ensure the working directory is writable.
-- `RobotomyRequestForm` uses `std::rand()` seeded with `std::time(0)` for the 50% robotomy success rate.
